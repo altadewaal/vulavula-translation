@@ -10,11 +10,14 @@ The Vulavula API enables seamless integration of advanced language translation i
 
 1. **Install dependencies**
    ```zsh
-   pip install requests
+   pip install requests python-dotenv
    ```
 
 2. **Set your Vulavula API token**
-   - Update the `VULAVULA_TOKEN` variable in `vulavula_translation.py` with your token.
+   - Create a `.env` file in the project root with:
+     ```env
+     VULAVULA_TOKEN=your_actual_token_here
+     ```
 
 3. **Run the translation script**
    ```zsh
