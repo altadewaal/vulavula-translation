@@ -1,0 +1,3 @@
+# Ignore Vulavula token and environment files
+.env
+vulavula_token.py
